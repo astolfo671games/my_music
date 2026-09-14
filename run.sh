@@ -2,7 +2,7 @@
 
 clear
 
-chmod 777 bb.py
+chmod 700 bb.py
 ./bb.py $1
 
 gcc -std=c2x temp.c -o t
